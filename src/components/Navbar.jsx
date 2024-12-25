@@ -38,7 +38,7 @@ const Navbar = () => {
                             }
                         </div>
                     </ul>
-                    <ul className={`absolute z-50 top-[7rem] p-5  text-sm rounded-xl  transition-all duration-500 ${isOpen ? 'right-2 flex' : 'hidden'} bg-black/90 text-orange-400 font-semibold flex-col md:hidden gap-5 uppercase`}>
+                    <ul className={`absolute z-50 p-5 top-[7rem] text-sm rounded-xl  transition-all duration-500 ${isOpen ? 'right-2 flex' : 'hidden'} bg-black/90 text-orange-400 font-semibold flex-col md:hidden gap-5 uppercase`}>
                         <li className='transition-all duration-200 cursor-pointer'>Home</li>
                         <li className='transition-all duration-200 cursor-pointer'>Submit Property</li>
                         <li className='transition-all duration-200 cursor-pointer'>Services</li>
